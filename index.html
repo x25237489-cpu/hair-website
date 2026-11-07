@@ -7,7 +7,7 @@
   <meta name="description" content="Explore human hair, Cambodian hair and Chinese hair at Asterha Luxehair. Enquire about wigs, installation, styling and revamping through WhatsApp.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Asterha Luxehair — Hair, beautifully considered">
-  <meta property="og:image" content="images/hero.webp">
+  <meta property="og:image" content="hero.webp">
   <meta property="og:description" content="Explore our hair collections and enquire about wig services. Worldwide shipping enquiries welcome.">
   <title>Asterha Luxehair | Wigs, Styling & Wig Care</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23512d3b'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia' font-size='39' fill='%23fff2ec'%3EA%3C/text%3E%3C/svg%3E">
@@ -55,7 +55,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <div class="announcement">Worldwide shipping enquiries <span>✦</span> Wig services &amp; hair collections</div>
 <header class="topnav"><div class="container navinner">
-  <a class="brand" href="#home" aria-label="Asterha Luxehair home"><img src="images/logo.webp" alt="" class="nav-logo" width="44" height="44"><strong>Asterha Luxehair</strong><small>Hair atelier</small></a>
+  <a class="brand" href="#home" aria-label="Asterha Luxehair home"><img src="logo.webp" alt="" class="nav-logo" width="44" height="44"><strong>Asterha Luxehair</strong><small>Hair atelier</small></a>
   <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="primaryNav" aria-label="Open navigation"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
   <nav id="primaryNav" class="navlinks" aria-label="Main navigation"><a href="#collections">Hair collections</a><a href="#services">Our services</a><a href="#about">Our approach</a><a href="#faq">FAQs</a><a href="https://www.instagram.com/asterha_luxehair/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a class="btn" href="#contact">Let's talk hair ↗</a></nav>
 </div></header>
@@ -66,7 +66,7 @@
   <p>Discover our wig collections and personalised hair services, from installation and styling to giving your favourite wig a new life.</p>
   <div class="hero-actions"><a class="btn" href="#collections">Explore hair collections <span aria-hidden="true">↗</span></a><a class="btn btn-outline" href="https://www.instagram.com/asterha_luxehair/" target="_blank" rel="noopener noreferrer">View our Instagram ↗</a></div>
   <div class="micro">Made for your individual style</div>
-</div><div class="hero-art"><img class="hero-photo" src="images/hero.webp" alt="Asterha Luxehair editorial hairstyle portrait" fetchpriority="high" decoding="async" width="1122" height="1402"><div class="hero-note">Your hair. Your signature.</div></div></div></section>
+</div><div class="hero-art"><img class="hero-photo" src="hero.webp" alt="Asterha Luxehair editorial hairstyle portrait" fetchpriority="high" decoding="async" width="1122" height="1402"><div class="hero-note">Your hair. Your signature.</div></div></div></section>
 <div class="ticker"><div class="container"><span>01 <i>✦</i> Explore the collections</span><span>02 <i>✦</i> Personalised enquiries</span><span>03 <i>✦</i> Shipping &amp; pickup options</span></div></div>
 <section class="section" id="collections"><div class="container"><div class="section-head"><div><p class="eyebrow">Find your next look</p><h2>The hair edit.</h2></div><p>Explore the types of hair we work with. Tell us what you have in mind and we'll discuss available options and pricing with you.</p></div>
 <div class="collection-grid">
@@ -92,7 +92,7 @@
 'use strict';
 /* =======================================================================
   ASTERHA LUXEHAIR SITE CONFIGURATION
-  Approved image assets are in the images/ folder next to index.html.
+  Approved image assets are in the  folder next to index.html.
   To replace a photo, update the relevant path below and upload its file.
   Leave a path empty to show its decorative SVG fallback instead.
   Never put private bank details, credentials or API keys in this public file.
@@ -100,10 +100,10 @@
 const SITE = {
   whatsappNumber: '353872775903',
   photos: {
-    human: 'images/human-hair.webp',
-    cambodian: 'images/cambodian-hair.webp',
-    chinese: 'images/chinese-hair.webp',
-    brand: 'images/logo.webp'
+    human: 'human-hair.webp',
+    cambodian: 'cambodian-hair.webp',
+    chinese: 'chinese-hair.webp',
+    brand: 'logo.webp'
   }
 };
 const whatsappUrl = message => `https://wa.me/${SITE.whatsappNumber}?text=${encodeURIComponent(message)}`;
